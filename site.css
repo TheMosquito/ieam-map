@@ -1,0 +1,63 @@
+
+body {
+  margin: 0;
+  font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: left;
+}
+
+.ieam-logo {
+  height: calc(20px + 2vmin);
+  pointer-events: none;
+}
+
+.ieam-header {
+  background-color: #000000;
+  min-height: 7vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  font-size: calc(10px + 1vmin);
+  color: white;
+}
+
+.ieam-header-p {
+  margin: 0.025% 0 0 0;
+  color: white;
+}
+
+.ieam-body {
+  background-color: #F4F4F4;
+  min-height: 7vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  font-size: calc(10px + 1vmin);
+  color: black;
+}
+
+.ieam-p {
+  margin: 0.025% 0 0 0;
+  color: #000000;
+}
+
+.ieam-a:link {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.ieam-a:visited {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.ieam-a:hover {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.ieam-a:active {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
